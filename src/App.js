@@ -2,6 +2,7 @@ import "./App.css";
 
 import NavBar from "./Component/NavBar/NavBar";
 import Header from "./Component/Header/Header";
+import Games from "./Component/Games/Games";
 
 const games = [
   {
@@ -284,6 +285,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Header />
+      <Games games={games} />
     </div>
   );
 }
