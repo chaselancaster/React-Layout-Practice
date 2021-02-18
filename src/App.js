@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./Component/NavBar/NavBar";
 import Header from "./Component/Header/Header";
 import Games from "./Component/Games/Games";
+import About from "./Component/About/About";
 
 const games = [
   {
@@ -139,6 +140,7 @@ function App() {
       <NavBar />
       <Header />
       <Games games={games} />
+      <About />
     </div>
   );
 }

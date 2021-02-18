@@ -1,0 +1,48 @@
+.about-parent {
+  background-color: black;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 2px solid white; */
+  width: 80%;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .about-parent {
+    height: 800px;
+    padding-bottom: 60px;
+  }
+
+  .top-row {
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid white; */
+  }
+}
