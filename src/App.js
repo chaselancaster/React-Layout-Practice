@@ -6,27 +6,6 @@ import Games from "./Component/Games/Games";
 
 const games = [
   {
-    name: ".hack//G.U. vol. 1//Rebirth",
-    details: ["Sony PlayStation 2 exclusive"],
-    id: "ps20",
-    igdbId: 11987,
-    gbId: 1695,
-    gbGuid: "3030-1695",
-    tgdbId: 12739,
-    isExclusive: [
-      {
-        name: "Sony Playstation 2",
-        id: "ccl21",
-        igdbId: 8,
-        gbId: 19,
-        gbGuid: "3045-19",
-        tgdbId: 11,
-      },
-    ],
-    isLaunchTitle: false,
-    special: [],
-  },
-  {
     name: ".hack//G.U. vol. 2//Reminisce",
     details: ["Sony PlayStation 2 exclusive"],
     id: "ps21",
