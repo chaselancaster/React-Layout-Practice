@@ -4,6 +4,7 @@ import NavBar from "./Component/NavBar/NavBar";
 import Header from "./Component/Header/Header";
 import Games from "./Component/Games/Games";
 import About from "./Component/About/About";
+import Footer from "./Component/Footer/Footer";
 
 const games = [
   {
@@ -141,6 +142,7 @@ function App() {
       <Header />
       <Games games={games} />
       <About />
+      <Footer />
     </div>
   );
 }
